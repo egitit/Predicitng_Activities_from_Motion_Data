@@ -33,7 +33,7 @@ The Participants performed the following activities while wearing the sensors:
 
 
 # Data Ingestion
-I started off by creating a dataframe with 1.14 million rows of data as each participants data was spread out over 142,500 rows of data for all . That lead to potentially making 1.14 million predictions instead of prediciting on chunks of time. To combat this I ended up adding a time column, which was in increments of .04 seconds for EDA as well as participant numbers in order to groupy a participant by activities. 
+I started off by creating a dataframe with 1.14 million rows of data as each participants data was spread out over 142,500 rows of data for all . That lead to potentially making 1.14 million predictions instead of prediciting on chunks of time. To combat this I ended up adding a time column, which was in increments of .04 seconds for EDA as well as participant numbers in order to group a participant by activities. 
 
 # EDA
 Once the data was in a workable format I started to explore what the acitivty data looked like. I started to pick up that these data points seemed to gravitate towards the mean. I also noticed that the variance in data points could be a great indicator when trying to predicts a persons activity. The greator the variance, the greator the motion. 
